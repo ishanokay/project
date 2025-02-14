@@ -1,0 +1,70 @@
+# project
+creating a page which redirect to apple or samsung for scrolling products
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>codechef </title>
+  <link rel="stylesheet" href="hh.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r146/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar">
+    <div class="logo"><img src="https://cdn.codechef.com/images/cc-logo.svg" width="80%" alt="codechef"></div>
+    <ul class="nav-links">
+      <li><a href="#" class="nav-link">Home</a></li>
+      <li><a href="#" class="nav-link">Products</a></li>
+      <li><a href="#" class="nav-link">Support</a></li>
+      <li><a href="#" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- title -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Innovation in You</h1>
+      <p class="hero-subtitle">Discover the latest products in technology from Apple and Samsung.</p>
+      <div class="hero-buttons">
+        <a href="https://www.apple.com/in/" class="cta-button apple" target="_blank">Explore Apple</a>
+        <a href="https://www.samsung.com/in/" class="cta-button samsung" target="_blank">Explore Samsung</a>
+      </div>
+    </div>
+    <div id="3d-container"></div>
+  </section>
+
+  <!-- product section -->
+  <section class="products">
+    <h2 class="section-title">Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-pro-model-unselect-gallery-2-202409_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=70&.v=aWs5czA5aDFXU0FlMGFGRlpYRXk2UWFRQXQ2R0JQTk5udUZxTkR3ZVlpSlo4cUtOVXZ0VkpGRlBQT0VQc1Qrd1B1OWIzMk5Pa05pM0VtRDBtTXRCK3dUMngwVnJycmY0WkN2ZnNvOUpFNFd0WXdwZkhSYStycUNlU1I0YzZvelo0dGx0Y1ZLQlV5bmZsVklVZzRYdC9R&traceId=1" alt="iPhone" class="product-image">
+        <h3 class="product-title">iPhone 16 Pro</h3>
+        <p class="product-description">Cutting-edge technology for everyday use.</p>
+        <a href="https://www.apple.com/in/iphone-15-pro/" class="product-button" target="_blank">Learn More</a>
+      </div>
+      <div class="product-card">
+        <img src="https://images.samsung.com/in/smartphones/galaxy-s25-ultra/buy/product_color_jetBlack_PC.png?imbypass=true" alt="Galaxy" class="product-image">
+        <h3 class="product-title">Galaxy S25 Ultra</h3>
+        <p class="product-description">Designed for performance and style.</p>
+        <a href="https://www.samsung.com/in/smartphones/galaxy-s23-ultra/" class="product-button" target="_blank">Learn More</a>
+      </div>
+      <div class="product-card">
+        <img src="https://www.futureworldindia.in/image/cache/catalog/FWI/I%20Mac/Mac%20A/Mac%20A/13-inch%20MacBook%20Air%20Apple%20M1%20chip%20Space%20Grey-416x416.jpg" alt="MacBook" class="product-image">
+        <h3 class="product-title">MacBook Air</h3>
+        <p class="product-description">Innovation at your fingertips.</p>
+        <a href="https://www.apple.com/in/macbook-air/" class="product-button" target="_blank">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer class="footer">
+    <p class="footer-text">&copy; 2025 Tech Innovators. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
